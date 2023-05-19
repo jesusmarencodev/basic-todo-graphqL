@@ -10,5 +10,5 @@ type Query {
   randomNumber: Float!
 
   """probando tercer resolver random number from to ..."""
-  randomNumberFromZero(to: Float!): Float!
+  randomNumberFromZero(to: Int): Int!
 }
